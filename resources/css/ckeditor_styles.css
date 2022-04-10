@@ -1,0 +1,24 @@
+@layer base {
+    .ck-content h2 {
+      @apply text-2xl;
+      @apply font-bold;
+    }
+    .ck-content h3 {
+      @apply text-xl;
+      @apply font-bold;
+    }
+    .ck-content h4 {
+      @apply text-lg;
+      @apply font-bold;
+    }
+    .ck-content ul,
+    .ck-content ol {
+      @apply ml-2;
+    }
+    .ck-content ul li{
+      @apply list-disc;
+    }
+    .ck-content ol li{
+      @apply list-decimal;
+    }
+  }
